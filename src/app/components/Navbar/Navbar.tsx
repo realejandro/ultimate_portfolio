@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export const Navbar = () => {
   return (    
@@ -8,7 +9,7 @@ export const Navbar = () => {
         <div className="navbar-center">
             <ul className="menu menu-horizontal p-1">
                 <li>
-                    <a href="/">Home</a>
+                    <Link href="/">Home</Link>
                 </li>
                 <li>
                     <a href="#about">About me</a>

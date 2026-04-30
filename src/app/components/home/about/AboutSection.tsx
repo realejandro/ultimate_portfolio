@@ -9,13 +9,12 @@ export const AboutSection = () => {
         </div>
         <div className='flex flex-col p-4'>
             <p>
-                I've been working in projects with Next.js, React.js, Python, Headless wordpress and others.
-                I love working in the backend more than frontend environments or QA testing.
+                {"I've been working in projects with Next.js, React.js, Python, Headless wordpress and others. I love working in the backend more than frontend environments or QA testing."}
             </p>
             <div>
                 <button className='btn border rounded-lg p-4 btn-dash'>
                     <a href="#contact">
-                        Let's talk
+                        {"Let's talk"}
                     </a>                    
                 </button>
             </div>

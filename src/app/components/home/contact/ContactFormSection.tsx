@@ -9,7 +9,7 @@ export const ContactFormSection = () => {
         <div className="flex flex-col gap-6">
           <div>
             <h3 className="text-sm text-gray-600">Need help?</h3>
-            <h2 className="text-2xl font-semibold mt-1">Let's have a conversation!</h2>
+            <h2 className="text-2xl font-semibold mt-1">{"Let's have a conversation!"}</h2>
           </div>
 
           <input
