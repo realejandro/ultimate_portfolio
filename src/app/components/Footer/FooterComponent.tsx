@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import React from 'react'
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+
 export const FooterComponent = () => {
   return (
     <footer className="footer sm:footer-horizontal text-lg font-black p-10 justify-center items-center">

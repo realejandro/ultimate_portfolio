@@ -8,7 +8,7 @@ export const ProjectCard = ({ id, title, description, url, url_github, image, sk
   { id?:string, title:string, description:string, url:string, url_github:string, image:string, skills:string[] }) => {
   
   return (
-    <div key={id} className="card lg:card-side w-full border-5">
+    <div className="card lg:card-side w-full border-5">
        <figure className=" w-full lg:w-[30%] h-64 overflow-hidden ">
           <Image
             src={ image } 
@@ -26,7 +26,7 @@ export const ProjectCard = ({ id, title, description, url, url_github, image, sk
           {
             skills.map( (skill) => {
               return (
-                <p className=" border border-dashed rounded-lg px-4 py-2 ">
+                <p key={skill} className=" border border-dashed rounded-lg px-4 py-2 ">
                   { skill }
                 </p>
               )

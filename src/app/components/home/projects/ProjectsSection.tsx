@@ -29,7 +29,7 @@ export const ProjectsSection = () => {
       <div className="grid gap-8 grid-cols-1">
         {projects.map((project) => (
           <ProjectCard
-             
+            key={project.id} 
             {...project}
           />
         ))}
