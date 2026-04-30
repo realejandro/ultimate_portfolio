@@ -24,8 +24,7 @@ export const IntroSection = () => {
             <h1 className='text-5xl'>Software Engineer</h1>
             <span className='text-base text-[#D1D5DB] '>& Software Development Engineer in Test (SDET)</span>
             <span className='text-base'>
-                Hi! I'm Alejandro, a Software Engineer working as a SDET. Always looking for
-                problems to solve using code, systemic criteria or just improving Skils.
+                {"Hi! I'm Alejandro, a Software Engineer working as a SDET. Always looking for problems to solve using code, systemic criteria or just improving Skils"}.
             </span>
         </div>
         <div className='flex justify-center mt-10'>
