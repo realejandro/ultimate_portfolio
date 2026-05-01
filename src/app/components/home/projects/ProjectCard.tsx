@@ -4,8 +4,8 @@ import Link from "next/link";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 
 
-export const ProjectCard = ({ id, title, description, url, url_github, image, skills } : 
-  { id?:string, title:string, description:string, url:string, url_github:string, image:string, skills:string[] }) => {
+export const ProjectCard = ({ title, description, url, url_github, image, skills } : 
+  { title:string, description:string, url:string, url_github:string, image:string, skills:string[] }) => {
   
   return (
     <div className="card lg:card-side w-full border-5">

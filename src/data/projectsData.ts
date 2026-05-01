@@ -19,7 +19,7 @@ export const projects : ProjectsData[] = [
         mission :'My mission was to adapt both the frontend and backend of the web application using Next.js for the client interface and Strapi as the headless CMS and API.',
         url:'https://gourmet-hound.vercel.app/',
         url_github:'https://github.com/realejandro/gourmet_hound',
-        skills:['Next.js', 'Wordpress', 'GraphQL', 'Python'],
+        skills:['Next.js', 'Wordpress', 'GraphQL'],
         role:'Full Stack Developer',
         image: "/assets/images/projects/gourmet_hound.png"
     },
