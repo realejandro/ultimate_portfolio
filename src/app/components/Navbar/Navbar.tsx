@@ -1,8 +1,10 @@
+
+'use client';
 import Link from "next/link";
 
 export const Navbar = () => {
 
-    
+
   const optionsMenu = ["Home", "About", "Projects", "Skills", "Experience", "Blog"];
 
   const optionMenuElements = () =>
