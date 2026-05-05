@@ -1,4 +1,5 @@
 import React from 'react'
+import { EducationComponent } from '../education/EducationComponent'
 
 export const AboutSection = () => {
   return (

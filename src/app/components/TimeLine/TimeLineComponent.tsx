@@ -71,8 +71,8 @@ export const TimeLineComponent = () => {
             </div>
             <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2023 - Present</time>
-            <div className="text-lg font-black">Self-Employee Full Stack Developer | SDET</div>
-                As a Full Stack Developer and SDET, I worked on building and maintaining web applications using React, Next.js, Node.js, and Python.
+            <div className="text-lg font-black">Self-Employee Software Engineer</div>
+                As a Software Engineer, I worked on building and maintaining web applications using React, Next.js, Node.js, and Python.
                 I developed both frontend and backend features and implemented new functionalities based on project requirements.
                 I ensured software quality through automated testing and contributed to CI/CD pipelines and end-to-end testing.
                 I collaborated with teams to deliver reliable, production-ready applications.

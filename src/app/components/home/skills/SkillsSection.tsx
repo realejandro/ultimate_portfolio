@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPython, FaReact, FaDatabase, FaJava, FaWordpress } from 'react-icons/fa'
+import { FaPython, FaReact, FaDatabase, FaJava, FaWordpress, FaDocker } from 'react-icons/fa'
 
 export const SkillsSection = () => {
   return (
@@ -25,7 +25,9 @@ export const SkillsSection = () => {
             <div className="carousel-item">
                 <FaWordpress size={100} /> 
             </div>
-            
+            <div className="carousel-item">
+                <FaDocker size={100} /> 
+            </div>
         </div>
         
     </section>
