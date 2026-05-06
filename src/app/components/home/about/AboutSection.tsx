@@ -1,5 +1,5 @@
 import React from 'react'
-import { EducationComponent } from '../education/EducationComponent'
+import { EducationComponent } from '../education/EducationalSection'
 
 export const AboutSection = () => {
   return (

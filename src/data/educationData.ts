@@ -16,7 +16,7 @@ export const education: EducationData[] = [
         id: '2',
         title : 'Northwestern University',
         level: 'Professional Certificate in Software Development',
-        description : 'Built an ecommerce app for Gourmet Hound, a Fulham deli, with Headless WordPress and Next.js, including product catalogue, shopping basket, and responsive layout for local customers',
+        description : 'Over the last year, I have gained hands-on experience with powerful technologies such as the MERN Stack (MongoDB, Express, React, Node.js), Python, GraphQL and Apollo, Cypress for testing, and CI/CD with GitHub Actions. I’ve built full-stack applications, worked on automated testing, and streamlined my development process with modern tools and practices.',
         duration: 'September 2024 - April 2025',
         img: "/assets/images/education/northwestern_university.png"
     },
@@ -24,7 +24,7 @@ export const education: EducationData[] = [
         id: '3',
         title : 'UGMA',
         level: 'Bachelor of Science in System Engineering',
-        description : 'System designing and software development focused program',
+        description : 'Studied Systems Engineering at Universidad Gran Mariscal de Ayacucho, focusing on programming, algorithms, databases, and systems analysis. Built a strong foundation in software development and problem-solving through engineering principles.',
         duration: 'January 2017 - April 2019',
         img: "/assets/images/education/ugma_3.png"
     },

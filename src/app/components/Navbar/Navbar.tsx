@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Navbar = () => {
 
 
-  const optionsMenu = ["Home", "About", "Projects", "Skills", "Experience", "Blog"];
+  const optionsMenu = ["Home", "About", "Projects", "Skills", "Education", "Experience", "Blog"];
 
   const optionMenuElements = () =>
     optionsMenu.map((option) => (
