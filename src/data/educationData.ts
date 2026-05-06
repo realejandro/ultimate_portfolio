@@ -25,7 +25,7 @@ export const education: EducationData[] = [
         title : 'UGMA',
         level: 'Bachelor of Science in System Engineering',
         description : 'System designing and software development focused program',
-        duration: 'September 2024 - April 2025',
+        duration: 'January 2017 - April 2019',
         img: "/assets/images/education/ugma_3.png"
     },
     /* 

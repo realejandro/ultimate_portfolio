@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export const EducationCard = ({ title, description, level, img, duration } : EducationData )  => {
   return (
-     <div className="card lg:card-side w-full mt-10">
+     <div className="card lg:card-side w-full">
         <figure className=" w-[10%] h-full overflow-hidden ">
             <Image
             src={ img } 

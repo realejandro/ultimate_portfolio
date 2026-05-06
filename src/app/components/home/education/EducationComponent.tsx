@@ -7,8 +7,8 @@ export const EducationComponent = () => {
     <section id='education' className='flex flex-col mt-10'>
         <div className='flex flex-row'>
             <div className='flex flex-col p-4 w-[30%]'>
-                <span className='text-base text-gray-600'>Educational</span>
-                <span className='text-4xl'>History</span>
+                <span className='text-base text-gray-600'>My current</span>
+                <span className='text-4xl'>Education</span>
             </div>
         </div>
         <div className='flex flex-col p-4'>
@@ -16,8 +16,7 @@ export const EducationComponent = () => {
                 education.map( e => {
                     return (
                         <div key={e.id}>
-                        <EducationCard
-                            
+                        <EducationCard 
                             { ...e }
                         />
                         <div className="divider divider-neutral"></div>
