@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Navbar = () => {
 
 
-  const optionsMenu = ["Home", "About", "Projects", "Skills", "Education", "Experience", "Blog"];
+  const optionsMenu = ["Home", "About", "Services", "Projects", "Skills", "Education", "Experience", "Blog"];
 
   const optionMenuElements = () =>
     optionsMenu.map((option) => (
@@ -23,7 +23,12 @@ export const Navbar = () => {
 
       {/* LEFT */}
       <div className="navbar-start">
-        <button className="btn btn-ghost text-xl">AC</button>
+        <Link 
+          className="btn btn-ghost text-xl"
+          href={"/"}
+          >
+            AC
+        </Link>
 
         {/* MOBILE DROPDOWN */}
         <div className="dropdown lg:hidden">
@@ -48,7 +53,7 @@ export const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 bg-transparent text-[var(--background)] rounded-box w-52"
           >
-            {optionMenuElements()}
+            { optionMenuElements() }
           </ul>
         </div>
       </div>
