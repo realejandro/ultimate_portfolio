@@ -21,9 +21,7 @@ export const TimeLineComponent = () => {
             <div className="timeline-start mb-10 md:text-end">
                 <time className="font-mono italic">2018 - 2020</time>
                 <div className="text-lg font-black">Oxoft Group</div>
-                    As a Jr Software Developer, I created web applications using JavaScript, React.js, and Node.js, translating UX/UI wireframes into reusable JSX components. 
-                    Collaborated with designers to build and test features using unit testing practices, 
-                    while applying modern JavaScript (ES6) and object-oriented principles to create scalable, maintainable code.
+                    {"As a Jr Software Developer, I created web applications using JavaScript, React.js, and Node.js, translating UX/UI wireframes into reusable JSX components. Collaborated with designers to build and test features using unit testing practices, while applying modern JavaScript (ES6) and object-oriented principles to create scalable, maintainable code."}
             </div>
             <hr />
         </li>
@@ -46,10 +44,7 @@ export const TimeLineComponent = () => {
             <div className="timeline-end md:mb-10">
                 <time className="font-mono italic">2022 - 2023</time>
                 <div className="text-lg font-black">Etsy.com Apprenticeship</div>
-                During my apprenticeship at Etsy.com, I worked as a Junior SDET focused on UI testing and automation.
-                I analyzed requirements and created detailed test scenarios to ensure feature quality and coverage.
-                I developed and maintained automated tests using Java, Selenium WebDriver, Cucumber BDD, and JUnit.
-                I also generated test reports with screenshots and helped improve testing reliability and debugging efficiency.
+                {"During my apprenticeship at Etsy.com, I worked as a Junior SDET focused on UI testing and automation. I analyzed requirements and created detailed test scenarios to ensure feature quality and coverage. I developed and maintained automated tests using Java, Selenium WebDriver, Cucumber BDD, and JUnit. I also generated test reports with screenshots and helped improve testing reliability and debugging efficiency."}
             </div>
             <hr />
         </li>
@@ -72,7 +67,7 @@ export const TimeLineComponent = () => {
             <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2023 - Present</time>
             <div className="text-lg font-black">Self-Employee Software Engineer</div>
-                Full-Stack Software Engineer specializing in custom web applications, business dashboards, e-commerce platforms and AI implementation. I build internal systems that connect directly to a business's existing infrastructure — giving teams real-time visibility and control through clean, reliable web interfaces built with React, Next.js, Node.js, and Python. I also handle automated testing and CI/CD pipelines, so what I ship is production-ready from day one, not just functional in development
+                {"Full-Stack Software Engineer specializing in custom web applications, business dashboards, e-commerce platforms and AI implementation. I build internal systems that connect directly to a business's existing infrastructure — giving teams real-time visibility and control through clean, reliable web interfaces built with React, Next.js, Node.js, and Python. I also handle automated testing and CI/CD pipelines, so what I ship is production-ready from day one, not just functional in development"}
             </div>
             <hr />
         </li>
