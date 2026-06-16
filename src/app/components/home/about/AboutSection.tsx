@@ -10,7 +10,7 @@ export const AboutSection = () => {
         </div>
         <div className='flex flex-col p-4'>
             <p>
-                {"I've been working in projects with Next.js, React.js, Python, Headless wordpress and others. I love working in the backend more than frontend environments or QA testing."}
+                {"I'm a software engineer who builds web applications end-to-end — and makes sure they actually work before they ship. My background spans React/Next.js, Node.js, Python, and Flask for development, paired with hands-on experience in automated testing (Selenium, Cucumber, REST Assured) from my time as an SDET at Etsy. That combination means I don't just hand off code — I build it, test it, and help catch issues before your users do."}
             </p>
             <div>
                 <button className='btn border rounded-lg p-4 btn-dash'>

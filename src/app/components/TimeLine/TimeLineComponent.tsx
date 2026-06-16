@@ -72,10 +72,7 @@ export const TimeLineComponent = () => {
             <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2023 - Present</time>
             <div className="text-lg font-black">Self-Employee Software Engineer</div>
-                As a Software Engineer, I worked on building and maintaining web applications using React, Next.js, Node.js, and Python.
-                I developed both frontend and backend features and implemented new functionalities based on project requirements.
-                I ensured software quality through automated testing and contributed to CI/CD pipelines and end-to-end testing.
-                I collaborated with teams to deliver reliable, production-ready applications.
+                Full-Stack Software Engineer specializing in custom web applications, business dashboards, e-commerce platforms and AI implementation. I build internal systems that connect directly to a business's existing infrastructure — giving teams real-time visibility and control through clean, reliable web interfaces built with React, Next.js, Node.js, and Python. I also handle automated testing and CI/CD pipelines, so what I ship is production-ready from day one, not just functional in development
             </div>
             <hr />
         </li>
