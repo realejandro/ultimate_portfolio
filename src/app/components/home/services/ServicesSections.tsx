@@ -4,30 +4,30 @@ import { FaCode, FaRobot, FaVial, FaPlug } from 'react-icons/fa'
 const services = [
   {
     icon: <FaCode size={40} />,
-    title: 'Full-Stack Development',
-    description: 'Custom web applications, business dashboards, and e-commerce platforms built with React, Next.js, Node.js, and Python. From MVP to production-ready.',
+    title: 'Business Applications & Dashboards',
+    description: 'I build custom software solutions that help businesses manage customers, inventory, operations, and sales in one place. From internal tools to customer-facing applications.',
   },
   {
     icon: <FaRobot size={40} />,
-    title: 'AI Integration',
-    description: 'Add AI-powered features to your existing product — chatbots, document search, workflow automation — using Claude and OpenAI APIs integrated into your stack.',
+    title: 'AI Automation & Smart Workflows',
+    description: 'I help businesses reduce repetitive work by integrating AI into their daily operations — customer support assistants, document processing, data analysis, and workflow automation.',
   },
   {
     icon: <FaVial size={40} />,
-    title: 'Test Automation',
-    description: 'End-to-end testing frameworks built from scratch using Selenium, Cucumber, and REST Assured. Ship with confidence knowing your app is covered before it reaches users.',
+    title: 'Software Quality & Automation Testing',
+    description: 'I help companies improve software reliability by creating automated testing systems that detect problems before they reach customers.',
   },
   {
     icon: <FaPlug size={40} />,
-    title: 'API Development',
-    description: 'REST and GraphQL APIs designed for scalability and reliability. Includes third-party integrations (Slack, payment gateways, internal business systems).',
+    title: 'System Integrations & Backend Solutions',
+    description: 'I connect your business tools and build reliable systems that allow your applications, databases, and third-party services to work together.',
   },
 ]
 
 export const ServicesSection = () => {
   return (
     <section id='services' className='flex flex-col mt-10 px-4'>
-      <div className='flex flex-col p-4 w-full sm:w-[30%]'>
+      <div className='flex flex-col w-full sm:w-[30%]'>
         <span className='text-base text-gray-600'>What I offer</span>
         <span className='text-4xl'>Services</span>
       </div>
